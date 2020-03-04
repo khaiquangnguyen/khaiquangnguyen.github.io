@@ -1,0 +1,152 @@
+@media (max-width: 599px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 900px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  margin: 1rem auto auto;
+  box-sizing: border-box;
+  padding: 1rem;
+  font-family: "Lora", sans-serif;
+}
+
+.divider {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  white-space: nowrap;
+  max-width: 500px;
+  margin: 2rem auto 3rem;
+}
+
+hr {
+  width: 100%;
+  margin: 0 1rem;
+  border-top: 1px solid #333333;
+}
+
+.display-1 {
+  font-family: "Charm", cursive;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+}
+
+.display-4 {
+  font-family: "Merriweather", sans-serif;
+  font-weight: normal;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.content {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+#table-of-content-section {
+  margin-left: 3rem;
+  box-sizing: border-box;
+  font-size: 0.875em;
+  width: 300px;
+}
+
+#table-of-content {
+  padding-left: 2rem;
+  border-left: 1px solid #a0a0a0;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 50px;
+  right: 0;
+}
+
+.content-list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.content-numbering {
+  font-family: "Merriweather", sans-serif;
+  opacity: 0.5;
+  font-size: 2em;
+  line-height: 1;
+  box-sizing: border-box;
+  margin-right: 1rem;
+}
+
+#story-container {
+  width: 750px;
+  text-align: center;
+}
+
+.small-title {
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.title-container {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.story-note, .content-story-note {
+  font-family: "Merriweather", sans-serif;
+  font-size: 0.875em;
+  opacity: 0.65;
+  line-height: 1.5;
+  margin: 0.75rem 0 1rem 0;
+}
+
+.content-story-note {
+  margin-top: 0.25rem;
+}
+
+.story {
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.75;
+  white-space: pre-line;
+  text-align: start;
+}
+
+.divider {
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, #303133, transparent);
+}
+
+/*# sourceMappingURL=index.css.map */
